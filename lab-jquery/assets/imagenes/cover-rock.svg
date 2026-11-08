@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="Portada de la categoría Rock">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0b10"/>
+      <stop offset=".55" stop-color="#1d222e"/>
+      <stop offset="1" stop-color="#3a1d24"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="40%" r="52%">
+      <stop offset="0" stop-color="#ff3b3b" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#ff3b3b" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#8f9bb0"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <circle cx="300" cy="260" r="230" fill="url(#glow)"/>
+  <g opacity=".22" fill="#e7edf6">
+    <path d="M0 118L600 34v34L0 152z"/>
+    <path d="M0 470L600 386v22L0 492z"/>
+  </g>
+  <g transform="translate(300 272)">
+    <path d="M0-150l130 75v150L0 300l-130-75V-75z" fill="none" stroke="url(#metal)" stroke-width="6" opacity=".5"/>
+    <path d="M-54-92l56 74-40 22 54 96" fill="none" stroke="#ff5a5a" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M54-92l-56 74 40 22-54 96" fill="none" stroke="#ff5a5a" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" opacity=".55"/>
+  </g>
+  <g fill="#ff6b6b" opacity=".7">
+    <circle cx="124" cy="146" r="3"/>
+    <circle cx="480" cy="180" r="3"/>
+    <circle cx="118" cy="356" r="3"/>
+    <circle cx="486" cy="350" r="3"/>
+  </g>
+  <text x="48" y="522" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" letter-spacing="10" fill="#eef2f9">ROCK</text>
+  <text x="49" y="556" font-family="Segoe UI, Arial, sans-serif" font-size="15" letter-spacing="4.5" fill="#aab6c9" opacity=".75">LÚMINA · KARAOKE LOUNGE</text>
+</svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="Portada de la categoría Románticas">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#240916"/>
+      <stop offset=".55" stop-color="#5c1030"/>
+      <stop offset="1" stop-color="#8f1d4a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="42%" r="52%">
+      <stop offset="0" stop-color="#ff8fb1" stop-opacity=".7"/>
+      <stop offset="1" stop-color="#ff8fb1" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="heart" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffd6e2"/>
+      <stop offset="1" stop-color="#ff6d9d"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <circle cx="380" cy="230" r="230" fill="url(#glow)"/>
+  <g fill="none" stroke="#ffd6e2" stroke-opacity=".14" stroke-width="1.4">
+    <circle cx="300" cy="280" r="210"/>
+    <circle cx="300" cy="280" r="168"/>
+    <circle cx="300" cy="280" r="126"/>
+  </g>
+  <g opacity=".2" fill="#ffd6e2">
+    <circle cx="92" cy="110" r="3"/>
+    <circle cx="510" cy="150" r="2.4"/>
+    <circle cx="472" cy="292" r="3.4"/>
+    <circle cx="140" cy="342" r="2.2"/>
+    <circle cx="198" cy="86" r="2"/>
+    <circle cx="536" cy="386" r="2.6"/>
+  </g>
+  <g transform="translate(300 268)">
+    <path d="M0 74C-34 46-96 2-96-40c0-30 23-52 52-52 20 0 35 11 44 26 9-15 24-26 44-26 29 0 52 22 52 52 0 42-62 86-96 114z" fill="none" stroke="url(#heart)" stroke-width="13" stroke-linejoin="round"/>
+    <path d="M0 52C-24 32-68 2-68-38c0-22 17-38 38-38 15 0 25 9 30 19 5-10 15-19 30-19 21 0 38 16 38 38 0 40-44 70-68 90z" fill="url(#heart)" opacity=".22"/>
+  </g>
+  <g fill="#ff8fb1" opacity=".85">
+    <circle cx="176" cy="420" r="4"/>
+    <circle cx="424" cy="420" r="4"/>
+    <circle cx="300" cy="452" r="4"/>
+  </g>
+  <text x="48" y="522" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" letter-spacing="5" fill="#ffe3ec">ROMÁNTICAS</text>
+  <text x="49" y="556" font-family="Segoe UI, Arial, sans-serif" font-size="15" letter-spacing="4.5" fill="#ffc2d5" opacity=".7">LÚMINA · KARAOKE LOUNGE</text>
+</svg>

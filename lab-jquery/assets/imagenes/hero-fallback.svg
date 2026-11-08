@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Escenario de karaoke con luces y micrófono">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05060b"/>
+      <stop offset=".5" stop-color="#0c0f1c"/>
+      <stop offset="1" stop-color="#1d1428"/>
+    </linearGradient>
+    <radialGradient id="gold" cx="50%" cy="38%" r="46%">
+      <stop offset="0" stop-color="#e9c77f" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#e9c77f" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="violet" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f5e3b8" stop-opacity=".33"/>
+      <stop offset="1" stop-color="#f5e3b8" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="mic" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8e9c8"/>
+      <stop offset="1" stop-color="#b98c3d"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <ellipse cx="820" cy="330" rx="620" ry="430" fill="url(#gold)"/>
+  <ellipse cx="310" cy="300" rx="330" ry="300" fill="url(#violet)"/>
+  <ellipse cx="1360" cy="340" rx="300" ry="280" fill="url(#violet)" opacity=".6"/>
+  <g fill="url(#beam)" opacity=".75">
+    <path d="M740 0l-170 760h-90L660 0z"/>
+    <path d="M880 0l120 720h88L940 0z" opacity=".7"/>
+    <path d="M600 0l-90 560h-52L540 0z" opacity=".4"/>
+  </g>
+  <g fill="none" stroke="#d9b56f" stroke-opacity=".14">
+    <circle cx="820" cy="420" r="380" stroke-width="1.5"/>
+    <circle cx="820" cy="420" r="300" stroke-width="1.5"/>
+    <circle cx="820" cy="420" r="220" stroke-width="1.5"/>
+  </g>
+  <g transform="translate(820 470) rotate(-18)">
+    <rect x="-30" y="-250" width="60" height="270" rx="30" fill="none" stroke="url(#mic)" stroke-width="12"/>
+    <path d="M-70-160v40a70 70 0 0 0 140 0v-40" fill="none" stroke="url(#mic)" stroke-width="12" stroke-linecap="round"/>
+    <path d="M0-46v150" stroke="url(#mic)" stroke-width="16" stroke-linecap="round"/>
+    <rect x="-12" y="-232" width="24" height="200" rx="12" fill="#e9c77f" opacity=".32"/>
+  </g>
+  <g fill="#f5e3b8" opacity=".5">
+    <circle cx="120" cy="120" r="3"/>
+    <circle cx="300" cy="80" r="2"/>
+    <circle cx="500" cy="180" r="2.4"/>
+    <circle cx="1120" cy="120" r="2.6"/>
+    <circle cx="1380" cy="90" r="3"/>
+    <circle cx="1500" cy="230" r="2"/>
+    <circle cx="180" cy="700" r="2"/>
+    <circle cx="1460" cy="720" r="2.4"/>
+  </g>
+  <g fill="#0a0c14">
+    <path d="M0 820c220-90 420-90 640-30s420 60 620 10 260-26 340-6v106H0z"/>
+  </g>
+  <g fill="#d9b56f" opacity=".25">
+    <circle cx="120" cy="860" r="3"/>
+    <circle cx="300" cy="880" r="2.4"/>
+    <circle cx="1280" cy="872" r="3"/>
+    <circle cx="1480" cy="854" r="2.4"/>
+  </g>
+</svg>

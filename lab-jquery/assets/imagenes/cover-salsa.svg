@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="Portada de la categoría Salsa">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#240406"/>
+      <stop offset=".55" stop-color="#6d1010"/>
+      <stop offset="1" stop-color="#a5340a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="40%" r="55%">
+      <stop offset="0" stop-color="#ffb703" stop-opacity=".75"/>
+      <stop offset="1" stop-color="#ffb703" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffe8a3"/>
+      <stop offset="1" stop-color="#e07a00"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <circle cx="332" cy="248" r="234" fill="url(#glow)"/>
+  <g transform="translate(300 268)">
+    <ellipse cx="0" cy="-96" rx="58" ry="22" fill="url(#gold)"/>
+    <path d="M-58-96v78c0 26 116 26 116 0v-78" fill="none" stroke="url(#gold)" stroke-width="10"/>
+    <path d="M-58-18v78c0 26 116 26 116 0v-78" fill="none" stroke="url(#gold)" stroke-width="10" opacity=".8"/>
+    <path d="M-58 60v78c0 26 116 26 116 0V60" fill="none" stroke="url(#gold)" stroke-width="10" opacity=".6"/>
+    <path d="M-84-96l-34-34M84-96l34-34" stroke="url(#gold)" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  <g fill="#ffd166" opacity=".85">
+    <circle cx="128" cy="150" r="4"/>
+    <circle cx="474" cy="146" r="3"/>
+    <circle cx="120" cy="336" r="3"/>
+    <circle cx="488" cy="340" r="4"/>
+  </g>
+  <g fill="none" stroke="#ffb703" stroke-opacity=".35" stroke-width="3">
+    <path d="M40 452c26-24 52 24 78 0s52 24 78 0 52 24 78 0 52 24 78 0 52 24 78 0 52 24 78 0"/>
+    <path d="M40 486c26-24 52 24 78 0s52 24 78 0 52 24 78 0 52 24 78 0 52 24 78 0 52 24 78 0" opacity=".6"/>
+  </g>
+  <text x="48" y="522" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" letter-spacing="9" fill="#fff3d6">SALSA</text>
+  <text x="49" y="556" font-family="Segoe UI, Arial, sans-serif" font-size="15" letter-spacing="4.5" fill="#ffcf8c" opacity=".75">LÚMINA · KARAOKE LOUNGE</text>
+</svg>

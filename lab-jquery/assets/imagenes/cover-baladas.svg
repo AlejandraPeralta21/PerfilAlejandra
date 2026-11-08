@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="Portada de la categoría Baladas">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#081222"/>
+      <stop offset=".55" stop-color="#122c4a"/>
+      <stop offset="1" stop-color="#235b6e"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="38%" r="52%">
+      <stop offset="0" stop-color="#bfe3ff" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#bfe3ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="moon" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff8e7"/>
+      <stop offset="1" stop-color="#d9b56f"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <circle cx="322" cy="238" r="230" fill="url(#glow)"/>
+  <g fill="#dff1ff" opacity=".7">
+    <circle cx="112" cy="120" r="2.4"/>
+    <circle cx="196" cy="86" r="1.8"/>
+    <circle cx="486" cy="110" r="2.2"/>
+    <circle cx="520" cy="232" r="1.8"/>
+    <circle cx="88" cy="268" r="1.8"/>
+    <circle cx="452" cy="330" r="2.6"/>
+  </g>
+  <g transform="translate(300 262)">
+    <path d="M40-120a118 118 0 1 0 0 236 128 128 0 0 1 0-236z" fill="url(#moon)" opacity=".9"/>
+    <path d="M-8-74a74 74 0 1 0 0 148 82 82 0 0 1 0-148z" fill="#081222" opacity=".35"/>
+  </g>
+  <g fill="none" stroke="#9ad0ff" stroke-opacity=".35" stroke-width="2">
+    <path d="M64 420c60-26 96-26 152 0s92 26 152 0 100-26 168 0"/>
+    <path d="M64 452c60-26 96-26 152 0s92 26 152 0 100-26 168 0"/>
+    <path d="M64 484c60-26 96-26 152 0s92 26 152 0 100-26 168 0" opacity=".6"/>
+  </g>
+  <text x="48" y="522" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" letter-spacing="6" fill="#eaf5ff">BALADAS</text>
+  <text x="49" y="556" font-family="Segoe UI, Arial, sans-serif" font-size="15" letter-spacing="4.5" fill="#a9cce4" opacity=".75">LÚMINA · KARAOKE LOUNGE</text>
+</svg>

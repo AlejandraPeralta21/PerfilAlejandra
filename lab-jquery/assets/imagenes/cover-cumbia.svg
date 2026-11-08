@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="Portada de la categoría Cumbia">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#04160c"/>
+      <stop offset=".55" stop-color="#0d3f26"/>
+      <stop offset="1" stop-color="#1c6b3a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="40%" r="54%">
+      <stop offset="0" stop-color="#ffe066" stop-opacity=".65"/>
+      <stop offset="1" stop-color="#ffe066" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff3b0"/>
+      <stop offset="1" stop-color="#ffa62b"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <circle cx="330" cy="250" r="232" fill="url(#glow)"/>
+  <g transform="translate(300 270)">
+    <circle r="118" fill="none" stroke="url(#sun)" stroke-width="10"/>
+    <circle r="86" fill="url(#sun)" opacity=".22"/>
+    <g stroke="#ffe066" stroke-width="6" stroke-linecap="round" opacity=".8">
+      <path d="M-160 0H-196M160 0h36M0-160V-196M0 160v36M-113-113l-26-26M113 113l26 26M113-113l26-26M-113 113l-26 26"/>
+    </g>
+    <g fill="#ffd60a">
+      <circle cx="-64" cy="-22" r="7"/>
+      <circle cx="64" cy="-22" r="7"/>
+      <path d="M-38 26c0 22 78 22 78 0" fill="none" stroke="#ffd60a" stroke-width="7" stroke-linecap="round"/>
+    </g>
+  </g>
+  <g fill="none" stroke="#ffd60a" stroke-opacity=".35" stroke-width="2">
+    <path d="M40 454l40-30 40 30 40-30 40 30 40-30 40 30 40-30 40 30 40-30 40 30 40-30 40 30"/>
+    <path d="M40 486l40-30 40 30 40-30 40 30 40-30 40 30 40-30 40 30 40-30 40 30 40-30 40 30"/>
+  </g>
+  <text x="48" y="522" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" letter-spacing="7" fill="#f4ffe8">CUMBIA</text>
+  <text x="49" y="556" font-family="Segoe UI, Arial, sans-serif" font-size="15" letter-spacing="4.5" fill="#c3e6a8" opacity=".75">LÚMINA · KARAOKE LOUNGE</text>
+</svg>

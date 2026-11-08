@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="Portada de la categoría Música en inglés">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#04111f"/>
+      <stop offset=".55" stop-color="#0b3350"/>
+      <stop offset="1" stop-color="#0e5f73"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="40%" r="54%">
+      <stop offset="0" stop-color="#48cae4" stop-opacity=".7"/>
+      <stop offset="1" stop-color="#48cae4" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ice" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#48cae4"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <circle cx="348" cy="244" r="232" fill="url(#glow)"/>
+  <g transform="translate(300 264)" fill="none" stroke="url(#ice)" stroke-width="6">
+    <circle r="126"/>
+    <ellipse rx="126" ry="54"/>
+    <ellipse rx="54" ry="126"/>
+    <path d="M-126 0h252M-108-64h216M-108 64h216" stroke-opacity=".55"/>
+  </g>
+  <g fill="#c9f6ff" opacity=".85">
+    <circle cx="118" cy="122" r="2.6"/>
+    <circle cx="492" cy="134" r="2"/>
+    <circle cx="96" cy="330" r="2.2"/>
+    <circle cx="510" cy="318" r="2.8"/>
+  </g>
+  <g fill="none" stroke="#7dd3fc" stroke-opacity=".3" stroke-width="2">
+    <path d="M48 452c34-20 68 20 102 0s68 20 102 0 68 20 102 0 68 20 102 0 68 20 102 0"/>
+    <path d="M48 484c34-20 68 20 102 0s68 20 102 0 68 20 102 0 68 20 102 0 68 20 102 0" opacity=".6"/>
+  </g>
+  <text x="48" y="520" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="700" letter-spacing="4" fill="#eafaff">MÚSICA EN INGLÉS</text>
+  <text x="49" y="556" font-family="Segoe UI, Arial, sans-serif" font-size="15" letter-spacing="4.5" fill="#a5e4f2" opacity=".75">LÚMINA · KARAOKE LOUNGE</text>
+</svg>
